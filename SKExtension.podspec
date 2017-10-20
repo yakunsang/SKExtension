@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   s.source_files  = "SKExtension", "**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+   s.public_header_files = "SKExtension/Ignore/SKExtension.pch"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
