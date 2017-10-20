@@ -29,6 +29,7 @@
 		4699D62A1F9A14C80036F504 /* NSBundle+SKLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4699D6291F9A14C80036F504 /* NSBundle+SKLanguage.m */; };
 		4699D62D1F9A16FF0036F504 /* NSFileManager+SKFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4699D62C1F9A16FF0036F504 /* NSFileManager+SKFoundation.m */; };
 		4699D6301F9A1CD20036F504 /* NSObject+SKORM.m in Sources */ = {isa = PBXBuildFile; fileRef = 4699D62F1F9A1CD20036F504 /* NSObject+SKORM.m */; };
+		4699D6321F9A27070036F504 /* SKExtension.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4699D6311F9A27070036F504 /* SKExtension.podspec */; };
 		9AB37D863B1830149B257784 /* libPods-SKExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 725796EB797BE59C9740C4FD /* libPods-SKExtension.a */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +97,7 @@
 		4699D62C1F9A16FF0036F504 /* NSFileManager+SKFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+SKFoundation.m"; sourceTree = "<group>"; };
 		4699D62E1F9A1CD20036F504 /* NSObject+SKORM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SKORM.h"; sourceTree = "<group>"; };
 		4699D62F1F9A1CD20036F504 /* NSObject+SKORM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SKORM.m"; sourceTree = "<group>"; };
+		4699D6311F9A27070036F504 /* SKExtension.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SKExtension.podspec; sourceTree = SOURCE_ROOT; };
 		52518CFE1404136C0A36A8AD /* Pods-SKExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKExtension/Pods-SKExtension.release.xcconfig"; sourceTree = "<group>"; };
 		725796EB797BE59C9740C4FD /* libPods-SKExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36030E0E856F31C6833BA61 /* Pods-SKExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKExtension/Pods-SKExtension.debug.xcconfig"; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				464C37C01F94ABD400984984 /* LaunchScreen.storyboard */,
 				464C37C31F94ABD400984984 /* Info.plist */,
 				464C37C41F94ABD400984984 /* main.m */,
+				4699D6311F9A27070036F504 /* SKExtension.podspec */,
 				4699D6241F9A0DD30036F504 /* SKExtension.pch */,
 			);
 			path = Ignore;
@@ -381,6 +384,7 @@
 			files = (
 				464C37C21F94ABD400984984 /* LaunchScreen.storyboard in Resources */,
 				464C37BF1F94ABD400984984 /* Assets.xcassets in Resources */,
+				4699D6321F9A27070036F504 /* SKExtension.podspec in Resources */,
 				464C37BD1F94ABD400984984 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
