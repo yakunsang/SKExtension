@@ -15,6 +15,20 @@
 		464C37C51F94ABD400984984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 464C37C41F94ABD400984984 /* main.m */; };
 		464C37CF1F94ABD400984984 /* SKExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 464C37CE1F94ABD400984984 /* SKExtensionTests.m */; };
 		464C37DA1F94ABD500984984 /* SKExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 464C37D91F94ABD500984984 /* SKExtensionUITests.m */; };
+		4677F9DE1F99A9B70031F554 /* NSString+SKCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4677F9DD1F99A9B70031F554 /* NSString+SKCheck.m */; };
+		4677F9E11F99B27F0031F554 /* NSString+SKURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4677F9E01F99B27D0031F554 /* NSString+SKURL.m */; };
+		4677F9E41F99B40C0031F554 /* NSString+SKDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4677F9E31F99B40C0031F554 /* NSString+SKDate.m */; };
+		4677F9E71F99B8590031F554 /* NSDate+SKFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4677F9E61F99B8590031F554 /* NSDate+SKFoundation.m */; };
+		4699D60B1F99E2490036F504 /* NSString+SKCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4699D60A1F99E2490036F504 /* NSString+SKCalculation.m */; };
+		4699D6141F99F7E40036F504 /* NSString+SKFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4699D6131F99F7E40036F504 /* NSString+SKFoundation.m */; };
+		4699D61A1F99FF7D0036F504 /* NSArray+SKFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4699D6191F99FF7D0036F504 /* NSArray+SKFoundation.m */; };
+		4699D61D1F9A069A0036F504 /* NSDictionary+SKFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4699D61C1F9A069A0036F504 /* NSDictionary+SKFoundation.m */; };
+		4699D6201F9A08A00036F504 /* NSNull+SKCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4699D61F1F9A08A00036F504 /* NSNull+SKCommon.m */; };
+		4699D6231F9A09FC0036F504 /* NSObject+SKSwizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 4699D6221F9A09FC0036F504 /* NSObject+SKSwizzled.m */; };
+		4699D6271F9A13A70036F504 /* NSTimer+SKFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4699D6261F9A13A70036F504 /* NSTimer+SKFoundation.m */; };
+		4699D62A1F9A14C80036F504 /* NSBundle+SKLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4699D6291F9A14C80036F504 /* NSBundle+SKLanguage.m */; };
+		4699D62D1F9A16FF0036F504 /* NSFileManager+SKFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4699D62C1F9A16FF0036F504 /* NSFileManager+SKFoundation.m */; };
+		4699D6301F9A1CD20036F504 /* NSObject+SKORM.m in Sources */ = {isa = PBXBuildFile; fileRef = 4699D62F1F9A1CD20036F504 /* NSObject+SKORM.m */; };
 		9AB37D863B1830149B257784 /* libPods-SKExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 725796EB797BE59C9740C4FD /* libPods-SKExtension.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +66,36 @@
 		464C37D51F94ABD500984984 /* SKExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		464C37D91F94ABD500984984 /* SKExtensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKExtensionUITests.m; sourceTree = "<group>"; };
 		464C37DB1F94ABD500984984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4677F9DA1F99A0D10031F554 /* SKExtensionMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKExtensionMacro.h; sourceTree = "<group>"; };
+		4677F9DC1F99A9B70031F554 /* NSString+SKCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SKCheck.h"; sourceTree = "<group>"; };
+		4677F9DD1F99A9B70031F554 /* NSString+SKCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKCheck.m"; sourceTree = "<group>"; };
+		4677F9DF1F99B27D0031F554 /* NSString+SKURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SKURL.h"; sourceTree = "<group>"; };
+		4677F9E01F99B27D0031F554 /* NSString+SKURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKURL.m"; sourceTree = "<group>"; };
+		4677F9E21F99B40C0031F554 /* NSString+SKDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SKDate.h"; sourceTree = "<group>"; };
+		4677F9E31F99B40C0031F554 /* NSString+SKDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKDate.m"; sourceTree = "<group>"; };
+		4677F9E51F99B8590031F554 /* NSDate+SKFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+SKFoundation.h"; sourceTree = "<group>"; };
+		4677F9E61F99B8590031F554 /* NSDate+SKFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SKFoundation.m"; sourceTree = "<group>"; };
+		4699D6091F99E2490036F504 /* NSString+SKCalculation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SKCalculation.h"; sourceTree = "<group>"; };
+		4699D60A1F99E2490036F504 /* NSString+SKCalculation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKCalculation.m"; sourceTree = "<group>"; };
+		4699D6121F99F7E40036F504 /* NSString+SKFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SKFoundation.h"; sourceTree = "<group>"; };
+		4699D6131F99F7E40036F504 /* NSString+SKFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKFoundation.m"; sourceTree = "<group>"; };
+		4699D6181F99FF7D0036F504 /* NSArray+SKFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+SKFoundation.h"; sourceTree = "<group>"; };
+		4699D6191F99FF7D0036F504 /* NSArray+SKFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SKFoundation.m"; sourceTree = "<group>"; };
+		4699D61B1F9A069A0036F504 /* NSDictionary+SKFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SKFoundation.h"; sourceTree = "<group>"; };
+		4699D61C1F9A069A0036F504 /* NSDictionary+SKFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SKFoundation.m"; sourceTree = "<group>"; };
+		4699D61E1F9A08A00036F504 /* NSNull+SKCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNull+SKCommon.h"; sourceTree = "<group>"; };
+		4699D61F1F9A08A00036F504 /* NSNull+SKCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNull+SKCommon.m"; sourceTree = "<group>"; };
+		4699D6211F9A09FC0036F504 /* NSObject+SKSwizzled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SKSwizzled.h"; sourceTree = "<group>"; };
+		4699D6221F9A09FC0036F504 /* NSObject+SKSwizzled.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SKSwizzled.m"; sourceTree = "<group>"; };
+		4699D6241F9A0DD30036F504 /* SKExtension.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKExtension.pch; sourceTree = "<group>"; };
+		4699D6251F9A13A70036F504 /* NSTimer+SKFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+SKFoundation.h"; sourceTree = "<group>"; };
+		4699D6261F9A13A70036F504 /* NSTimer+SKFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+SKFoundation.m"; sourceTree = "<group>"; };
+		4699D6281F9A14C80036F504 /* NSBundle+SKLanguage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+SKLanguage.h"; sourceTree = "<group>"; };
+		4699D6291F9A14C80036F504 /* NSBundle+SKLanguage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+SKLanguage.m"; sourceTree = "<group>"; };
+		4699D62B1F9A16FF0036F504 /* NSFileManager+SKFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+SKFoundation.h"; sourceTree = "<group>"; };
+		4699D62C1F9A16FF0036F504 /* NSFileManager+SKFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+SKFoundation.m"; sourceTree = "<group>"; };
+		4699D62E1F9A1CD20036F504 /* NSObject+SKORM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SKORM.h"; sourceTree = "<group>"; };
+		4699D62F1F9A1CD20036F504 /* NSObject+SKORM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SKORM.m"; sourceTree = "<group>"; };
 		52518CFE1404136C0A36A8AD /* Pods-SKExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKExtension/Pods-SKExtension.release.xcconfig"; sourceTree = "<group>"; };
 		725796EB797BE59C9740C4FD /* libPods-SKExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36030E0E856F31C6833BA61 /* Pods-SKExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKExtension/Pods-SKExtension.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,15 +152,10 @@
 		464C37B41F94ABD400984984 /* SKExtension */ = {
 			isa = PBXGroup;
 			children = (
-				464C37B51F94ABD400984984 /* AppDelegate.h */,
-				464C37B61F94ABD400984984 /* AppDelegate.m */,
-				464C37B81F94ABD400984984 /* ViewController.h */,
-				464C37B91F94ABD400984984 /* ViewController.m */,
-				464C37BB1F94ABD400984984 /* Main.storyboard */,
-				464C37BE1F94ABD400984984 /* Assets.xcassets */,
-				464C37C01F94ABD400984984 /* LaunchScreen.storyboard */,
-				464C37C31F94ABD400984984 /* Info.plist */,
-				464C37C41F94ABD400984984 /* main.m */,
+				4677F9D61F999FD40031F554 /* Macro */,
+				4677F9D71F999FDE0031F554 /* Addition */,
+				4677F9D81F999FF50031F554 /* Service */,
+				4677F9D41F999D850031F554 /* Ignore */,
 			);
 			path = SKExtension;
 			sourceTree = "<group>";
@@ -137,6 +176,81 @@
 				464C37DB1F94ABD500984984 /* Info.plist */,
 			);
 			path = SKExtensionUITests;
+			sourceTree = "<group>";
+		};
+		4677F9D41F999D850031F554 /* Ignore */ = {
+			isa = PBXGroup;
+			children = (
+				464C37B51F94ABD400984984 /* AppDelegate.h */,
+				464C37B61F94ABD400984984 /* AppDelegate.m */,
+				464C37B81F94ABD400984984 /* ViewController.h */,
+				464C37B91F94ABD400984984 /* ViewController.m */,
+				464C37BB1F94ABD400984984 /* Main.storyboard */,
+				464C37BE1F94ABD400984984 /* Assets.xcassets */,
+				464C37C01F94ABD400984984 /* LaunchScreen.storyboard */,
+				464C37C31F94ABD400984984 /* Info.plist */,
+				464C37C41F94ABD400984984 /* main.m */,
+				4699D6241F9A0DD30036F504 /* SKExtension.pch */,
+			);
+			path = Ignore;
+			sourceTree = "<group>";
+		};
+		4677F9D61F999FD40031F554 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				4677F9DA1F99A0D10031F554 /* SKExtensionMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		4677F9D71F999FDE0031F554 /* Addition */ = {
+			isa = PBXGroup;
+			children = (
+				4677F9DB1F99A96C0031F554 /* Foundation */,
+			);
+			path = Addition;
+			sourceTree = "<group>";
+		};
+		4677F9D81F999FF50031F554 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4677F9DB1F99A96C0031F554 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				4677F9DC1F99A9B70031F554 /* NSString+SKCheck.h */,
+				4677F9DD1F99A9B70031F554 /* NSString+SKCheck.m */,
+				4677F9DF1F99B27D0031F554 /* NSString+SKURL.h */,
+				4677F9E01F99B27D0031F554 /* NSString+SKURL.m */,
+				4677F9E21F99B40C0031F554 /* NSString+SKDate.h */,
+				4677F9E31F99B40C0031F554 /* NSString+SKDate.m */,
+				4677F9E51F99B8590031F554 /* NSDate+SKFoundation.h */,
+				4677F9E61F99B8590031F554 /* NSDate+SKFoundation.m */,
+				4699D6091F99E2490036F504 /* NSString+SKCalculation.h */,
+				4699D60A1F99E2490036F504 /* NSString+SKCalculation.m */,
+				4699D6121F99F7E40036F504 /* NSString+SKFoundation.h */,
+				4699D6131F99F7E40036F504 /* NSString+SKFoundation.m */,
+				4699D6181F99FF7D0036F504 /* NSArray+SKFoundation.h */,
+				4699D6191F99FF7D0036F504 /* NSArray+SKFoundation.m */,
+				4699D61B1F9A069A0036F504 /* NSDictionary+SKFoundation.h */,
+				4699D61C1F9A069A0036F504 /* NSDictionary+SKFoundation.m */,
+				4699D61E1F9A08A00036F504 /* NSNull+SKCommon.h */,
+				4699D61F1F9A08A00036F504 /* NSNull+SKCommon.m */,
+				4699D6211F9A09FC0036F504 /* NSObject+SKSwizzled.h */,
+				4699D6221F9A09FC0036F504 /* NSObject+SKSwizzled.m */,
+				4699D6251F9A13A70036F504 /* NSTimer+SKFoundation.h */,
+				4699D6261F9A13A70036F504 /* NSTimer+SKFoundation.m */,
+				4699D6281F9A14C80036F504 /* NSBundle+SKLanguage.h */,
+				4699D6291F9A14C80036F504 /* NSBundle+SKLanguage.m */,
+				4699D62B1F9A16FF0036F504 /* NSFileManager+SKFoundation.h */,
+				4699D62C1F9A16FF0036F504 /* NSFileManager+SKFoundation.m */,
+				4699D62E1F9A1CD20036F504 /* NSObject+SKORM.h */,
+				4699D62F1F9A1CD20036F504 /* NSObject+SKORM.m */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 		487BDD408600A9995A5F439B /* Frameworks */ = {
@@ -347,9 +461,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4677F9DE1F99A9B70031F554 /* NSString+SKCheck.m in Sources */,
+				4699D61D1F9A069A0036F504 /* NSDictionary+SKFoundation.m in Sources */,
+				4699D6141F99F7E40036F504 /* NSString+SKFoundation.m in Sources */,
+				4699D62D1F9A16FF0036F504 /* NSFileManager+SKFoundation.m in Sources */,
+				4677F9E41F99B40C0031F554 /* NSString+SKDate.m in Sources */,
+				4699D62A1F9A14C80036F504 /* NSBundle+SKLanguage.m in Sources */,
 				464C37BA1F94ABD400984984 /* ViewController.m in Sources */,
+				4699D6271F9A13A70036F504 /* NSTimer+SKFoundation.m in Sources */,
+				4699D60B1F99E2490036F504 /* NSString+SKCalculation.m in Sources */,
+				4699D6201F9A08A00036F504 /* NSNull+SKCommon.m in Sources */,
 				464C37C51F94ABD400984984 /* main.m in Sources */,
+				4699D6231F9A09FC0036F504 /* NSObject+SKSwizzled.m in Sources */,
 				464C37B71F94ABD400984984 /* AppDelegate.m in Sources */,
+				4677F9E71F99B8590031F554 /* NSDate+SKFoundation.m in Sources */,
+				4699D6301F9A1CD20036F504 /* NSObject+SKORM.m in Sources */,
+				4677F9E11F99B27F0031F554 /* NSString+SKURL.m in Sources */,
+				4699D61A1F99FF7D0036F504 /* NSArray+SKFoundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +570,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SKExtension/Ignore/SKExtension.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -452,7 +582,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -495,13 +625,15 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SKExtension/Ignore/SKExtension.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -514,7 +646,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SKExtension/Info.plist;
+				INFOPLIST_FILE = SKExtension/Ignore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = syk.SKExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -528,7 +660,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SKExtension/Info.plist;
+				INFOPLIST_FILE = SKExtension/Ignore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = syk.SKExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
