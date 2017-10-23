@@ -13,7 +13,6 @@
 		464C37BF1F94ABD400984984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464C37BE1F94ABD400984984 /* Assets.xcassets */; };
 		464C37C21F94ABD400984984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464C37C01F94ABD400984984 /* LaunchScreen.storyboard */; };
 		464C37C51F94ABD400984984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 464C37C41F94ABD400984984 /* main.m */; };
-		464C37CF1F94ABD400984984 /* SKExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 464C37CE1F94ABD400984984 /* SKExtensionTests.m */; };
 		4677F9DE1F99A9B70031F554 /* NSString+SKCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4677F9DD1F99A9B70031F554 /* NSString+SKCheck.m */; };
 		4677F9E11F99B27F0031F554 /* NSString+SKURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4677F9E01F99B27D0031F554 /* NSString+SKURL.m */; };
 		4677F9E41F99B40C0031F554 /* NSString+SKDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4677F9E31F99B40C0031F554 /* NSString+SKDate.m */; };
@@ -61,7 +60,6 @@
 		464C37C31F94ABD400984984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		464C37C41F94ABD400984984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		464C37CA1F94ABD400984984 /* SKExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		464C37CE1F94ABD400984984 /* SKExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKExtensionTests.m; sourceTree = "<group>"; };
 		464C37D01F94ABD500984984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		464C37D51F94ABD500984984 /* SKExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		464C37DB1F94ABD500984984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -163,7 +161,6 @@
 		464C37CD1F94ABD400984984 /* SKExtensionTests */ = {
 			isa = PBXGroup;
 			children = (
-				464C37CE1F94ABD400984984 /* SKExtensionTests.m */,
 				464C37D01F94ABD500984984 /* Info.plist */,
 			);
 			path = SKExtensionTests;
@@ -486,7 +483,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				464C37CF1F94ABD400984984 /* SKExtensionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
