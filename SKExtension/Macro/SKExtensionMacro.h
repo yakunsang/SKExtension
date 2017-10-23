@@ -16,7 +16,7 @@
 #define SK_RGBA(r, g, b, a) [UIColor colorWithRed:(r) /255.0f green:(g) / 255.0f blue:(b) /255.0f alpha:(a)]
 #define SK_RGB(r, g, b) SK_RGBA(r, g, b, 1.0f)
 #define SK_HEXCOLORA(hex, a) SK_RGBA(((float) (hex & 0xFF0000) >> 16), ((float) (hex & 0xFF00) >>8), ((float) (hex & 0xFF)), a)
-#define SK_HEXCOLORA(hex) SK_HEXCOLORA(hex, 1.0)
+#define SK_HEXCOLOR(hex) SK_HEXCOLORA(hex, 1.0)
 
 // 用于比较数字是否等于"0"
 #define SKEqualZero(num) (fabs(num) <DBL_EPSILON)
