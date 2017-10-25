@@ -63,7 +63,6 @@
 		464C37C41F94ABD400984984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		466CBC3D1FA065A9003D0A24 /* SKCacheItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKCacheItem.h; sourceTree = "<group>"; };
 		466CBC3E1FA065A9003D0A24 /* SKCacheItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKCacheItem.m; sourceTree = "<group>"; };
-		466CBC401FA085E4003D0A24 /* SKExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKExtension.h; sourceTree = "<group>"; };
 		4677F9DA1F99A0D10031F554 /* SKExtensionMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKExtensionMacro.h; sourceTree = "<group>"; };
 		4677F9DC1F99A9B70031F554 /* NSString+SKCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SKCheck.h"; sourceTree = "<group>"; };
 		4677F9DD1F99A9B70031F554 /* NSString+SKCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKCheck.m"; sourceTree = "<group>"; };
@@ -166,7 +165,6 @@
 				4677F9D71F999FDE0031F554 /* Addition */,
 				4677F9D81F999FF50031F554 /* Service */,
 				4677F9D41F999D850031F554 /* Ignore */,
-				466CBC401FA085E4003D0A24 /* SKExtension.h */,
 			);
 			path = SKExtension;
 			sourceTree = "<group>";
