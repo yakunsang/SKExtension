@@ -88,7 +88,7 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  s.prefix_header_file = "SKExtension/Ignore/SKExtension.pch"
+  s.prefix_header_file = "SKExtension.pch"
   s.source_files  = "SKExtension", "**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
