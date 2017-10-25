@@ -51,7 +51,6 @@
 		4620F8A91F9EE86E009BDEB1 /* SKFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKFileManager.m; sourceTree = "<group>"; };
 		4620F8AB1F9F3203009BDEB1 /* SKCacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKCacheManager.h; sourceTree = "<group>"; };
 		4620F8AC1F9F3203009BDEB1 /* SKCacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKCacheManager.m; sourceTree = "<group>"; };
-		4627DEC91FA0A791004BA839 /* SKExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKExtension.h; sourceTree = "<group>"; };
 		464C37B21F94ABD400984984 /* SKExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		464C37B51F94ABD400984984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		464C37B61F94ABD400984984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -162,7 +161,6 @@
 		464C37B41F94ABD400984984 /* SKExtension */ = {
 			isa = PBXGroup;
 			children = (
-				4627DEC91FA0A791004BA839 /* SKExtension.h */,
 				4677F9D61F999FD40031F554 /* Macro */,
 				4677F9D71F999FDE0031F554 /* Addition */,
 				4677F9D81F999FF50031F554 /* Service */,

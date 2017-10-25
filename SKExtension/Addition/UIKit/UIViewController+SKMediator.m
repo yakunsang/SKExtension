@@ -34,7 +34,7 @@
 	[self.navigationController popToRootViewControllerAnimated:animated];
 }
 
-- (void)sk_popToViewController:(NSString *)viewController animated:(BOOL)animated {
+- (void)sk_popToViewController:(NSString *_Nonnull)viewController animated:(BOOL)animated {
 	[self sk_popToViewController:viewController params:@{} animated:animated];
 }
 
