@@ -89,10 +89,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
   s.prefix_header_file = "SKExtension/Ignore/SKExtension.pch"
-  s.source_files  = ["SKExtension/SKExtension.h", "Macro/*.{h,m}", "Addition/UIKit/*.{h,m}", "Addition/Foundation/*.{h,m}", "Service/Cache/*.{h,m}"]
+  s.source_files  = ["SKExtension", "Macro/*.{h,m}", "Addition/UIKit/*.{h,m}", "Addition/Foundation/*.{h,m}", "Service/Cache/*.{h,m}"]
   # s.exclude_files = "Classes/Exclude"
 
-  #s.public_header_files = "SKExtension/SKExtension.h"
+  #s.public_header_files = "SKExtension.pch"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
