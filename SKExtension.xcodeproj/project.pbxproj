@@ -10,6 +10,7 @@
 		4620F8A51F9EE5E1009BDEB1 /* UIImageView+SKWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4620F8A41F9EE5E1009BDEB1 /* UIImageView+SKWebCache.m */; };
 		4620F8AA1F9EE86E009BDEB1 /* SKFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4620F8A91F9EE86E009BDEB1 /* SKFileManager.m */; };
 		4620F8AD1F9F3203009BDEB1 /* SKCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4620F8AC1F9F3203009BDEB1 /* SKCacheManager.m */; };
+		463279E31FA0A264000D4EAF /* SKExtensionMacro.h in Sources */ = {isa = PBXBuildFile; fileRef = 4677F9DA1F99A0D10031F554 /* SKExtensionMacro.h */; };
 		464C37B71F94ABD400984984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 464C37B61F94ABD400984984 /* AppDelegate.m */; };
 		464C37BA1F94ABD400984984 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464C37B91F94ABD400984984 /* ViewController.m */; };
 		464C37BD1F94ABD400984984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464C37BB1F94ABD400984984 /* Main.storyboard */; };
@@ -420,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				463279E31FA0A264000D4EAF /* SKExtensionMacro.h in Sources */,
 				46B60DE81F9DF331001ECC81 /* UINavigationBar+Transition.m in Sources */,
 				46B60DEE1F9DF871001ECC81 /* UIButton+SKVerticalLayout.m in Sources */,
 				46B60DF41F9DFB90001ECC81 /* UIImage+SKFoundation.m in Sources */,

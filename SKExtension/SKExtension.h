@@ -12,37 +12,40 @@
 
 #pragma mark - =============== Macro ===============
 
-#import "SKExtensionMacro.h"
+#import "Macro/SKExtensionMacro.h"
 
 #pragma mark - =============== Additions ==============
 
-#import "NSString+SKCheck.h"
-#import "NSString+SKURL.h"
-#import "NSString+SKDate.h"
-#import "NSDate+SKFoundation.h"
-#import "NSString+SKCalculation.h"
-#import "NSString+SKFoundation.h"
-#import "NSArray+SKFoundation.h"
-#import "NSDictionary+SKFoundation.h"
-#import "NSNull+SKCommon.h"
-#import "NSObject+SKSwizzled.h"
-#import "NSTimer+SKFoundation.h"
-#import "NSBundle+SKLanguage.h"
-#import "NSFileManager+SKFoundation.h"
-#import "NSObject+SKORM.h"
+#import "Addition/Foundation/NSString+SKCheck.h"
+#import "Addition/Foundation/NSString+SKURL.h"
+#import "Addition/Foundation/NSString+SKDate.h"
+#import "Addition/Foundation/NSDate+SKFoundation.h"
+#import "Addition/Foundation/NSString+SKCalculation.h"
+#import "Addition/Foundation/NSString+SKFoundation.h"
+#import "Addition/Foundation/NSArray+SKFoundation.h"
+#import "Addition/Foundation/NSDictionary+SKFoundation.h"
+#import "Addition/Foundation/NSNull+SKCommon.h"
+#import "Addition/Foundation/NSObject+SKSwizzled.h"
+#import "Addition/Foundation/NSTimer+SKFoundation.h"
+#import "Addition/Foundation/NSBundle+SKLanguage.h"
+#import "Addition/Foundation/NSFileManager+SKFoundation.h"
+#import "Addition/Foundation/NSObject+SKORM.h"
 
 #pragma mark - ================== UIKit =================
 
-#import "UIViewController+SKMediator.h"
-#import "UIView+SKFoundation.h"
-#import "UINavigationBar+Transition.h"
-#import "UIButton+SKClickInterval.h"
-#import "UIButton+SKVerticalLayout.h"
-#import "UILabel+SKHeight.h"
-#import "UIImage+SKFoundation.h"
-#import "UIButton+SKWebCache.h"
-#import "UIImageView+SKWebCache.h"
+#import "Addition/UIKit/UIViewController+SKMediator.h"
+#import "Addition/UIKit/UIView+SKFoundation.h"
+#import "Addition/UIKit/UINavigationBar+Transition.h"
+#import "Addition/UIKit/UIButton+SKClickInterval.h"
+#import "Addition/UIKit/UIButton+SKVerticalLayout.h"
+#import "Addition/UIKit/UILabel+SKHeight.h"
+#import "Addition/UIKit/UIImage+SKFoundation.h"
+#import "Addition/UIKit/UIButton+SKWebCache.h"
+#import "Addition/UIKit/UIImageView+SKWebCache.h"
 
 
+#pragma mark - ================== pch =======================
+
+#import "Ignore/SKExtension.pch"
 
 #endif /* SKExtension_h */

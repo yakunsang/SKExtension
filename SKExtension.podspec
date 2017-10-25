@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   s.source_files  = ["SKExtension/SKExtension.h", "Macro/*.{h,m}", "Addition/UIKit/*.{h,m}", "Addition/Foundation/*.{h,m}", "Service/Cache/*.{h,m}"]
   # s.exclude_files = "Classes/Exclude"
 
-  #s.public_header_files = "SKExtension.pch"
+  #s.public_header_files = "SKExtension/SKExtension.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -129,7 +129,7 @@ Pod::Spec.new do |s|
   #  you can include multiple dependencies to ensure it works.
 
  s.requires_arc = true
-#s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/CommonCrypto" }
+ s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/CommonCrypto" }
  s.dependency "SDWebImage","~> 4.0.0"
 
 end
