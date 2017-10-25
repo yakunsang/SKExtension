@@ -130,6 +130,6 @@ Pod::Spec.new do |s|
 
  s.requires_arc = true
 #s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/CommonCrypto" }
-#s.dependency "AFNetworking", "~> 3.1.0"
+ s.dependency "AFNetworking", "~> 3.1.0" "SDWebImage","~> 4.0.0"
 
 end
