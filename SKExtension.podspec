@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
   s.prefix_header_file = "SKExtension/Ignore/SKExtension.pch"
-  s.source_files  = ["SKExtension", "Macro/*.{h,m}", "Addition/UIKit/*.{h,m}", "Addition/Foundation/*.{h,m}", "Service/Cache/*.{h,m}"]
+  s.source_files  = "SKExtension", "**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   #s.public_header_files = "SKExtension.pch"
@@ -129,7 +129,7 @@ Pod::Spec.new do |s|
   #  you can include multiple dependencies to ensure it works.
 
  s.requires_arc = true
- s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/CommonCrypto" }
+ #s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/CommonCrypto" }
  s.dependency "SDWebImage","~> 4.0.0"
 
 end
