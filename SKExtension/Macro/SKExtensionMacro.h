@@ -31,7 +31,7 @@
 
 // debug/release下的NSLog设置
 #ifdef DEBUG
-    #define NSLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__ ##__VA_ARGS__);
+    #define NSLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
     #define NSLogRect(rect) NSLog(@"%@", NSStringFromCGRect(rect));
 #else
     #define NSLog(...) {}

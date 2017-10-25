@@ -16,6 +16,7 @@
 		464C37BF1F94ABD400984984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464C37BE1F94ABD400984984 /* Assets.xcassets */; };
 		464C37C21F94ABD400984984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464C37C01F94ABD400984984 /* LaunchScreen.storyboard */; };
 		464C37C51F94ABD400984984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 464C37C41F94ABD400984984 /* main.m */; };
+		466CBC3F1FA065A9003D0A24 /* SKCacheItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 466CBC3E1FA065A9003D0A24 /* SKCacheItem.m */; };
 		4677F9DE1F99A9B70031F554 /* NSString+SKCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4677F9DD1F99A9B70031F554 /* NSString+SKCheck.m */; };
 		4677F9E11F99B27F0031F554 /* NSString+SKURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4677F9E01F99B27D0031F554 /* NSString+SKURL.m */; };
 		4677F9E41F99B40C0031F554 /* NSString+SKDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4677F9E31F99B40C0031F554 /* NSString+SKDate.m */; };
@@ -59,6 +60,9 @@
 		464C37C11F94ABD400984984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		464C37C31F94ABD400984984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		464C37C41F94ABD400984984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		466CBC3D1FA065A9003D0A24 /* SKCacheItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKCacheItem.h; sourceTree = "<group>"; };
+		466CBC3E1FA065A9003D0A24 /* SKCacheItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKCacheItem.m; sourceTree = "<group>"; };
+		466CBC401FA085E4003D0A24 /* SKExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKExtension.h; sourceTree = "<group>"; };
 		4677F9DA1F99A0D10031F554 /* SKExtensionMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKExtensionMacro.h; sourceTree = "<group>"; };
 		4677F9DC1F99A9B70031F554 /* NSString+SKCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SKCheck.h"; sourceTree = "<group>"; };
 		4677F9DD1F99A9B70031F554 /* NSString+SKCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKCheck.m"; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				4620F8A91F9EE86E009BDEB1 /* SKFileManager.m */,
 				4620F8AB1F9F3203009BDEB1 /* SKCacheManager.h */,
 				4620F8AC1F9F3203009BDEB1 /* SKCacheManager.m */,
+				466CBC3D1FA065A9003D0A24 /* SKCacheItem.h */,
+				466CBC3E1FA065A9003D0A24 /* SKCacheItem.m */,
 			);
 			path = Cache;
 			sourceTree = "<group>";
@@ -159,6 +165,7 @@
 				4677F9D71F999FDE0031F554 /* Addition */,
 				4677F9D81F999FF50031F554 /* Service */,
 				4677F9D41F999D850031F554 /* Ignore */,
+				466CBC401FA085E4003D0A24 /* SKExtension.h */,
 			);
 			path = SKExtension;
 			sourceTree = "<group>";
@@ -421,6 +428,7 @@
 				46B60DE51F9DEE13001ECC81 /* UIView+SKFoundation.m in Sources */,
 				4677F9DE1F99A9B70031F554 /* NSString+SKCheck.m in Sources */,
 				4699D61D1F9A069A0036F504 /* NSDictionary+SKFoundation.m in Sources */,
+				466CBC3F1FA065A9003D0A24 /* SKCacheItem.m in Sources */,
 				4699D6141F99F7E40036F504 /* NSString+SKFoundation.m in Sources */,
 				4699D62D1F9A16FF0036F504 /* NSFileManager+SKFoundation.m in Sources */,
 				4677F9E41F99B40C0031F554 /* NSString+SKDate.m in Sources */,
