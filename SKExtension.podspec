@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SKExtension"
-  s.version      = "0.0.9"
+  s.version      = "0.1.0"
   s.summary      = "A short tool to help delvlop work description of SKExtension."
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
   s.prefix_header_file = "SKExtension/Ignore/SKExtension.pch"
-  s.source_files  = "SKExtension", "**/*.{h,m}"
+  s.source_files  = ["SKExtension/Addition/Foundation/*.{h,m}", "SKExtension/Addition/UIKit/*.{h,m}"]
   # s.exclude_files = "Classes/Exclude"
 
   #s.public_header_files = "SKExtension.pch"
