@@ -88,8 +88,25 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  s.prefix_header_file = "SKExtension/Ignore/SKExtension.pch"
-  s.source_files  = "SKExtension/Addition", "/UIKit/*.{h,m}"
+  s.prefix_header_file = 'Ignore/SKExtension.pch'
+  s.source_files  = 'SKExtension/SKExtension.h'
+
+  s.subspec 'Foundation' do |ss|
+    ss.source_files = 'SKExtension/Foundation/*.{h,m}'
+  end
+
+  s.subspec 'UIKit' do |ss|
+    ss.source_files = 'SKExtension/UIKit/*.{h,m}'
+  end
+
+  s.subspec 'Macro' do |ss|
+    ss.source_files = 'SKExtension/Macro/*.{h,m}'
+  end
+
+  s.subspec 'Cache' do |ss|
+    ss.source_files = 'SKExtension/Cache/*.{h,m}'
+  end
+
   # s.exclude_files = "Classes/Exclude"
 
   #s.public_header_files = "SKExtension.pch"
