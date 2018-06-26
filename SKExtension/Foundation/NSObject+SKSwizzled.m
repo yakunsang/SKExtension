@@ -7,7 +7,7 @@
 //
 
 #import "NSObject+SKSwizzled.h"
-
+#import <objc/runtime.h>
 
 @implementation NSObject (SKSwizzled)
 

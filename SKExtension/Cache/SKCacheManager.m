@@ -34,8 +34,8 @@ static SKCacheManager *manager = nil;
 		_identifierArray = [NSMutableArray arrayWithArray:[SKFileManager allFileNamesInCacheDirectory]];
 		_cacheTimer = [NSTimer scheduledTimerWithTimeInterval:kRemoveExpiredCacheTime target:self selector:@selector(removeExpiredCache) userInfo:nil repeats:YES];
 		
-		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidEnterBackground) name:UIApplicationDidEnterBackgroundNotification object:nil];
-		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationWillEnterForeground) name:UIApplicationWillEnterForegroundNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidEnterBackground) name:NSExtensionHostDidEnterBackgroundNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationWillEnterForeground) name:NSExtensionHostWillEnterForegroundNotification object:nil];
 	}
 	
 	return self;

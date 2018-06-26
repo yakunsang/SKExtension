@@ -9,6 +9,7 @@
 //
 
 #import "NSObject+SKORM.h"
+#import <objc/runtime.h>
 
 NSString * const identifier = @"id";
 

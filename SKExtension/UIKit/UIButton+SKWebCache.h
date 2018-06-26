@@ -7,14 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-@class SDWebImageManager;
+#import "SDWebImageManager.h"
 
 @interface UIButton (SKWebCache)
 
 // 异步加载图片
 - (void)sk_setImageWithURL:(NSString *)url forState:(UIControlState)state;
 - (void)sk_setImageWithURL:(NSString *)url forState:(UIControlState)state placeholderImage:(UIImage *)placeholder;
-- (void)sk_setimageWithURL:(NSString *)url forState:(UIControlState)state completed:(SDExternalCompletionBlock)completedBlock;
+- (void)sk_setimageWithURL:(NSString *)url forState:(UIControlState)state completed:(nullable SDExternalCompletionBlock)completedBlock;
 - (void)sk_setImageWithURL:(NSString *)url forState:(UIControlState)state placeholderImage:(UIImage *)placeholder
                  completed:(SDExternalCompletionBlock)completedBlock;
 

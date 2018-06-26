@@ -11,7 +11,6 @@
 
 #import "UIButton+SKWebCache.h"
 #import "UIButton+WebCache.h"
-#import "SDWebImageManager.h"
 
 @implementation UIButton (SKWebCache)
 
@@ -23,11 +22,11 @@
 	[self sd_setImageWithURL:[NSURL URLWithString:url] forState:state placeholderImage:placeholder];
 }
 
-- (void)sk_setimageWithURL:(NSString *)url forState:(UIControlState)state completed:(SDExternalCompletionBlock)completedBlock {
+- (void)sk_setimageWithURL:(NSString *)url forState:(UIControlState)state completed:(nullable SDExternalCompletionBlock)completedBlock {
 	[self sd_setImageWithURL:[NSURL URLWithString:url] forState:state completed:completedBlock];
 }
 
-- (void)sk_setImageWithURL:(NSString *)url forState:(UIControlState)state placeholderImage:(UIImage *)placeholder completed:(SDExternalCompletionBlock)completedBlock {
+- (void)sk_setImageWithURL:(NSString *)url forState:(UIControlState)state placeholderImage:(UIImage *)placeholder completed:(nullable SDExternalCompletionBlock)completedBlock {
 	[self sd_setImageWithURL:[NSURL URLWithString:url] forState:state placeholderImage:placeholder completed:completedBlock];
 }
 @end
