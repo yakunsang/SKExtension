@@ -8,6 +8,8 @@
 
 #import "UIImageView+SKWebCache.h"
 #import "UIImageView+WebCache.h"
+#import "SDWebImageManager.h"
+
 @implementation UIImageView (SKWebCache)
 
 - (void)sk_setImageWithURL:(NSString *)url {

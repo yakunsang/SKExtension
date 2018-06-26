@@ -11,6 +11,7 @@
 
 #import "UIButton+SKWebCache.h"
 #import "UIButton+WebCache.h"
+#import "SDWebImageManager.h"
 
 @implementation UIButton (SKWebCache)
 
