@@ -99,9 +99,9 @@ Pod::Spec.new do |s|
     ss.source_files = 'SKExtension/UIKit/*.{h,m}'
   end
 
-  s.subspec 'Macro' do |ss|
-    ss.source_files = 'SKExtension/Macro/*.{h,m}'
-  end
+ # s.subspec 'Macro' do |ss|
+ #  ss.prefix_header_file = 'SKExtension/Macro/SKExtensionMacro.h'
+ # end
 
   s.subspec 'Cache' do |ss|
     ss.source_files = 'SKExtension/Cache/*.{h,m}'

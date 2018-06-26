@@ -81,7 +81,6 @@
 		39F8B0F120E0C4EC00FA80F0 /* NSString+SKURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKURL.m"; sourceTree = "<group>"; };
 		39F8B0F220E0C4EC00FA80F0 /* NSTimer+SKFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+SKFoundation.h"; sourceTree = "<group>"; };
 		39F8B0F320E0C4EC00FA80F0 /* NSTimer+SKFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+SKFoundation.m"; sourceTree = "<group>"; };
-		39F8B10320E0C4F800FA80F0 /* SKExtensionMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKExtensionMacro.h; sourceTree = "<group>"; };
 		39F8B10520E0C50000FA80F0 /* UIButton+SKClickInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SKClickInterval.h"; sourceTree = "<group>"; };
 		39F8B10620E0C50000FA80F0 /* UIButton+SKClickInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SKClickInterval.m"; sourceTree = "<group>"; };
 		39F8B10720E0C50000FA80F0 /* UIButton+SKVerticalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SKVerticalLayout.h"; sourceTree = "<group>"; };
@@ -178,14 +177,6 @@
 			path = Foundation;
 			sourceTree = "<group>";
 		};
-		39F8B10220E0C4F800FA80F0 /* Macro */ = {
-			isa = PBXGroup;
-			children = (
-				39F8B10320E0C4F800FA80F0 /* SKExtensionMacro.h */,
-			);
-			path = Macro;
-			sourceTree = "<group>";
-		};
 		39F8B10420E0C50000FA80F0 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,7 +243,6 @@
 			isa = PBXGroup;
 			children = (
 				39F8B10420E0C50000FA80F0 /* UIKit */,
-				39F8B10220E0C4F800FA80F0 /* Macro */,
 				39F8B0D720E0C4EC00FA80F0 /* Foundation */,
 				39F8B0CD20E0C4DC00FA80F0 /* Cache */,
 				39AC383B20E0C06C000BA76A /* SKExtension.h */,
@@ -593,6 +583,10 @@
 				INFOPLIST_FILE = Ignore/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Pods/SDWebImage\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = syk.SKExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -608,6 +602,10 @@
 				INFOPLIST_FILE = Ignore/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Pods/SDWebImage\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = syk.SKExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
