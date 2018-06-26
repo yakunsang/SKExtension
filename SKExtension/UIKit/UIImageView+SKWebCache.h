@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@class SDWebImageManager;
+#import "SDWebImageManager.h"
 
 @interface UIImageView (SKWebCache)
 

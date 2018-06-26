@@ -7,6 +7,7 @@
 //
 
 #import "UIButton+SKClickInterval.h"
+#import <objc/runtime.h>
 
 #define kDefaultClickInterval 0.5f
 

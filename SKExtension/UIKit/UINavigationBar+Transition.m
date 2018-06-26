@@ -7,6 +7,7 @@
 //
 
 #import "UINavigationBar+Transition.h"
+#import <objc/runtime.h>
 
 @implementation UINavigationBar (Transition)
 static char overlayKey;
