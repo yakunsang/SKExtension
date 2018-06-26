@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SKExtension"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "A short tool to help delvlop work description of SKExtension."
 
   # This description is used to generate tags and improve search results.
