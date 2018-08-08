@@ -19,6 +19,7 @@
 #import "UINavigationBar+Transition.h"
 #import "UIView+SKFoundation.h"
 #import "UIViewController+SKMediator.h"
+#import "UIColor+image.h"
 
 
 #import "NSArray+SKFoundation.h"

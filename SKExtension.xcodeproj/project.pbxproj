@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3905EC1D211B498F002D416A /* UIColor+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 3905EC1C211B498F002D416A /* UIColor+image.m */; };
 		39F8B0D420E0C4DC00FA80F0 /* SKCacheItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F8B0CF20E0C4DC00FA80F0 /* SKCacheItem.m */; };
 		39F8B0D520E0C4DC00FA80F0 /* SKCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F8B0D120E0C4DC00FA80F0 /* SKCacheManager.m */; };
 		39F8B0D620E0C4DC00FA80F0 /* SKFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F8B0D320E0C4DC00FA80F0 /* SKFileManager.m */; };
@@ -45,6 +46,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3905EC1B211B498F002D416A /* UIColor+image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+image.h"; sourceTree = "<group>"; };
+		3905EC1C211B498F002D416A /* UIColor+image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+image.m"; sourceTree = "<group>"; };
 		39AC383B20E0C06C000BA76A /* SKExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKExtension.h; sourceTree = "<group>"; };
 		39F8B0CE20E0C4DC00FA80F0 /* SKCacheItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCacheItem.h; sourceTree = "<group>"; };
 		39F8B0CF20E0C4DC00FA80F0 /* SKCacheItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCacheItem.m; sourceTree = "<group>"; };
@@ -195,6 +198,8 @@
 				39F8B11420E0C50000FA80F0 /* UIView+SKFoundation.m */,
 				39F8B11520E0C50000FA80F0 /* UIViewController+SKMediator.h */,
 				39F8B11620E0C50000FA80F0 /* UIViewController+SKMediator.m */,
+				3905EC1B211B498F002D416A /* UIColor+image.h */,
+				3905EC1C211B498F002D416A /* UIColor+image.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -361,6 +366,7 @@
 				39F8B0FC20E0C4ED00FA80F0 /* NSString+SKCalculation.m in Sources */,
 				39F8B11920E0C50000FA80F0 /* UIButton+SKWebCache.m in Sources */,
 				39F8B11F20E0C50000FA80F0 /* UIViewController+SKMediator.m in Sources */,
+				3905EC1D211B498F002D416A /* UIColor+image.m in Sources */,
 				39F8B0FE20E0C4ED00FA80F0 /* NSString+SKDate.m in Sources */,
 				39F8B13120E0C51600FA80F0 /* main.m in Sources */,
 				39F8B10120E0C4ED00FA80F0 /* NSTimer+SKFoundation.m in Sources */,
