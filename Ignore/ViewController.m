@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SKExtension.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIImage *img = [UIColor createImageWithColor:[UIColor redColor]];
+    UIImageView *imageV = [UIImageView new];
+    imageV.frame = CGRectMake(0, 0, 100, 100);
+    imageV.image = img;
+    [self.view addSubview:imageV];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
