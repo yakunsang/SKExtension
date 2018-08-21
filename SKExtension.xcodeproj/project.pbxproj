@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3905EC1D211B498F002D416A /* UIColor+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 3905EC1C211B498F002D416A /* UIColor+image.m */; };
+		393EAA2D212C129C007AF8D2 /* UIView+SKLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 393EAA2B212C129C007AF8D2 /* UIView+SKLayout.m */; };
 		39F8B0D420E0C4DC00FA80F0 /* SKCacheItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F8B0CF20E0C4DC00FA80F0 /* SKCacheItem.m */; };
 		39F8B0D520E0C4DC00FA80F0 /* SKCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F8B0D120E0C4DC00FA80F0 /* SKCacheManager.m */; };
 		39F8B0D620E0C4DC00FA80F0 /* SKFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F8B0D320E0C4DC00FA80F0 /* SKFileManager.m */; };
@@ -48,6 +49,8 @@
 /* Begin PBXFileReference section */
 		3905EC1B211B498F002D416A /* UIColor+image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+image.h"; sourceTree = "<group>"; };
 		3905EC1C211B498F002D416A /* UIColor+image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+image.m"; sourceTree = "<group>"; };
+		393EAA2B212C129C007AF8D2 /* UIView+SKLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SKLayout.m"; sourceTree = "<group>"; };
+		393EAA2C212C129C007AF8D2 /* UIView+SKLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SKLayout.h"; sourceTree = "<group>"; };
 		39AC383B20E0C06C000BA76A /* SKExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKExtension.h; sourceTree = "<group>"; };
 		39F8B0CE20E0C4DC00FA80F0 /* SKCacheItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCacheItem.h; sourceTree = "<group>"; };
 		39F8B0CF20E0C4DC00FA80F0 /* SKCacheItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCacheItem.m; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 		39F8B10420E0C50000FA80F0 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				393EAA2C212C129C007AF8D2 /* UIView+SKLayout.h */,
+				393EAA2B212C129C007AF8D2 /* UIView+SKLayout.m */,
 				39F8B10520E0C50000FA80F0 /* UIButton+SKClickInterval.h */,
 				39F8B10620E0C50000FA80F0 /* UIButton+SKClickInterval.m */,
 				39F8B10720E0C50000FA80F0 /* UIButton+SKVerticalLayout.h */,
@@ -391,6 +396,7 @@
 				39F8B11D20E0C50000FA80F0 /* UINavigationBar+Transition.m in Sources */,
 				39F8B0F820E0C4ED00FA80F0 /* NSFileManager+SKFoundation.m in Sources */,
 				39F8B11C20E0C50000FA80F0 /* UILabel+SKHeight.m in Sources */,
+				393EAA2D212C129C007AF8D2 /* UIView+SKLayout.m in Sources */,
 				39F8B0F420E0C4ED00FA80F0 /* NSArray+SKFoundation.m in Sources */,
 				39F8B11720E0C50000FA80F0 /* UIButton+SKClickInterval.m in Sources */,
 			);
