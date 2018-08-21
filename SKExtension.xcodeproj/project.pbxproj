@@ -39,7 +39,6 @@
 		39F8B12D20E0C51600FA80F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F8B12320E0C51600FA80F0 /* Assets.xcassets */; };
 		39F8B12E20E0C51600FA80F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F8B12420E0C51600FA80F0 /* LaunchScreen.storyboard */; };
 		39F8B12F20E0C51600FA80F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F8B12620E0C51600FA80F0 /* Main.storyboard */; };
-		39F8B13020E0C51600FA80F0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39F8B12820E0C51600FA80F0 /* Info.plist */; };
 		39F8B13120E0C51600FA80F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F8B12920E0C51600FA80F0 /* main.m */; };
 		39F8B13220E0C51600FA80F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F8B12B20E0C51600FA80F0 /* ViewController.m */; };
 		39F8B13420E0C58A00FA80F0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39F8B13320E0C58A00FA80F0 /* Default-568h@2x.png */; };
@@ -332,7 +331,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39F8B13020E0C51600FA80F0 /* Info.plist in Resources */,
 				39F8B12F20E0C51600FA80F0 /* Main.storyboard in Resources */,
 				39F8B12D20E0C51600FA80F0 /* Assets.xcassets in Resources */,
 				39F8B13420E0C58A00FA80F0 /* Default-568h@2x.png in Resources */,
@@ -541,6 +539,7 @@
 			baseConfigurationReference = D36030E0E856F31C6833BA61 /* Pods-SKExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Ignore/Info.plist;
@@ -561,6 +560,7 @@
 			baseConfigurationReference = 52518CFE1404136C0A36A8AD /* Pods-SKExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Ignore/Info.plist;

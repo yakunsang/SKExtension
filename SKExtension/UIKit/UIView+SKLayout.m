@@ -46,6 +46,10 @@
     self.frame = frame;
 }
 
+- (CGFloat)sk_height {
+    return self.frame.size.height;
+}
+
 - (void)setSk_size:(CGSize)sk_size {
     CGRect frame = self.frame;
     frame.size = sk_size;
