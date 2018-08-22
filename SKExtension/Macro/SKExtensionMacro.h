@@ -6,8 +6,8 @@
 //  Copyright © 2018年 CFsyk. All rights reserved.
 //
 
-#ifndef SKExtension_h
-#define SKExtension_h
+#ifndef SKExtensionMacro_h
+#define SKExtensionMacro_h
 
 // weak/strong 对象
 #define sk_weakify(x) autoreleasepool{} __weak __typeof__(x) __weak_##x##__ = x;
@@ -50,4 +50,4 @@ shareObject = [[self alloc] init];          \
 return shareObject;                         \
 }
 
-#endif /* SKExtension_h */
+#endif /* SKExtensionMacro_h */

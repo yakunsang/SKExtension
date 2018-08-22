@@ -42,5 +42,4 @@
 
 #import "SKExtensionMacro.h"
 
-
 #endif /* SKExtension_h */
