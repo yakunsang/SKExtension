@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39018EA6212D3D7D00CC4ACE /* SKExtensionMacro.h in Sources */ = {isa = PBXBuildFile; fileRef = 39AC383B20E0C06C000BA76A /* SKExtensionMacro.h */; };
 		3905EC1D211B498F002D416A /* UIColor+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 3905EC1C211B498F002D416A /* UIColor+image.m */; };
 		393EAA2D212C129C007AF8D2 /* UIView+SKLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 393EAA2B212C129C007AF8D2 /* UIView+SKLayout.m */; };
 		39F8B0D420E0C4DC00FA80F0 /* SKCacheItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F8B0CF20E0C4DC00FA80F0 /* SKCacheItem.m */; };
@@ -376,6 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39018EA6212D3D7D00CC4ACE /* SKExtensionMacro.h in Sources */,
 				39F8B0FC20E0C4ED00FA80F0 /* NSString+SKCalculation.m in Sources */,
 				39F8B11920E0C50000FA80F0 /* UIButton+SKWebCache.m in Sources */,
 				39F8B11F20E0C50000FA80F0 /* UIViewController+SKMediator.m in Sources */,
