@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SKExtension"
-  s.version      = "0.1.6"
+  s.version      = "0.1.7"
   s.summary      = "A short tool to help delvlop work description of SKExtension."
 
   # This description is used to generate tags and improve search results.
@@ -100,7 +100,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Macro' do |ss|
-   ss.source_files = 'SKExtension/Macro/.{h,m}'
+   ss.source_files = 'SKExtension/Macro/SKExtensionMacro.h'
   end
 
   s.subspec 'Cache' do |ss|

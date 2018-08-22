@@ -40,7 +40,7 @@
 #import "SKCacheManager.h"
 #import "SKFileManager.h"
 
-#import "Define_SKExtension.h"
+#import "SKExtensionMacro.h"
 
 
 #endif /* SKExtension_h */
